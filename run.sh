@@ -1,3 +1,3 @@
 #! /bin/sh
 
-./dist/P1
+./dist/ReqManager

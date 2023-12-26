@@ -1,9 +1,10 @@
 #! /bin/sh
-
+echo "############ Remove distro ###########"
+rm -rf ./dist/*
 echo "############ Configure Project ###########"
 ./configure.sh || exit 1
 echo "############ Build product ###############"
-./build.sh || exit 1
+./build.sh ./ || exit 1
 echo "############### Run ######################"
 ./run.sh || exit 1
 echo "############### Run ######################"

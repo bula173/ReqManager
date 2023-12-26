@@ -2,9 +2,10 @@
 
 FILE="Makefile"
 
+mkdir -p ./build
 cd ./build
 if [ ! -f "$FILE" ]; then
     echo "$FILE not created."
     exit
 fi
-make $1
+cmake --build $1

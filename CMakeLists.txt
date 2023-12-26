@@ -8,7 +8,7 @@ add_compile_options(
        -Wall -Werror -Wno-error=maybe-uninitialized
 )
 
-project(P1)
+project(ReqManager)
 
 # UNIT TEST
 include(FetchContent)
